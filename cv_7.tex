@@ -1,0 +1,155 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+n
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+\usepackage[utf8]{inputenc}
+\usepackage[danish]{babel}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{} % Your first name
+\familyname{Willi Carlsen} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{CV}
+\address{Rungsted Plads 12, 4.th}{2200, København N}
+\mobile{+45 28162990}
+%\phone{}
+%\fax{(000) 111 1113}
+\email{wcarlsen@protonmail.com}
+\homepage{dk.linkedin.com/in/wcarlsen}{} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{https://dk.linkedin.com/in/wcarlsen}
+\photo[100pt][0.8pt]{pictures/image002.jpg} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\quote{Quantum optics, statistics and programming interested experimental physicist}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	RESUME
+%----------------------------------------------------------------------------------------
+
+\section{Resume}
+\cvitem{}{During my education I have been focusing on quantum optics and experimental physics, which has made me develop substantial analytical, programming and statistical skills. I have handled and processed large amounts of data, therefore memory and run-time optimization as well as statistical analysis of data come natural to me. To challenge myself, during my master's project, I decided to do all the scripting in Python, but I still have a lot of experience with Matlab, which I have taught to students at university.}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2009--2015}{MSc in Physics}{Niels Bohr Institute}{University of Copenhagen}{Average 9.3}{}{}
+\cvitem{Project title}{\emph{Cryogenic cavity optomechanics with ultrahigh-Q membrane resonators}}
+\cvitem{Supervisors}{Professor Eugene Polzik \& Associate Professor Albert Schliesser}
+\cvitem{Description}{An experiment trying, via optomechanical effects, to laser cool a nano-membrane to its ground state. The nano-membrane motion is caused by Brownian motion due to its finite temperature. It is exactly this vibrational noise we cooled away to glance at a macroscopic objects quantum behavior. The membrane was laser cooled from cryogenic temperature (4 K) down to 3 mK, yielding a 4\% chance of observing the object in its ground state.}
+\cvitem{Selected courses}{''Applied Statistics'', ''Introduction to Computing for Physicists'', ''Optical Physics \& Lasers'', ''Experimental Physics'', ''Quantum Optics 1 \& 2'', ''Mathematical Physics'', ''Condensed Matter Physics 1 \& 2''.}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\cvitem{Language}{Danish and English. Fluent in both written and speach.}
+\cvitem{Data processing}{Python, Matlab, Mathematica, C++ (ROOT), Labview, Microsoft Excel.}
+\cvitem{Web \& layout}{\textsc{html}, Markdown, \LaTeX.}
+\cvitem{Graphics}{Autodesk Inventor, GIMP, Inkscape.}
+\cvitem{Operating system}{Mac OSX, GNU/Linux, Microsoft Windows.}
+\cvitem{Diverse}{Git, Office suite, Vim, Emacs, Tmux, Bash, *NIX command line.}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\cventry{2012--2014}{Laboratory instructor in courses Classical Mechanics 1 \& 2}{University of Copenhagen}{Copenhagen}{}{Development of new educational material and teaching the laboratory exercises and programming in Matlab (look under "Prizes").}
+
+\cventry{2010--2015}{Handicap assistent for the head of IT in Dansk Handicap-Idræt}{Frederiksberg Kommune}{Copenhagen}{}{Maintenance and development of the homepages \url{dhif.dk} and \url{racerunning.dk}. IT responsible at the World Cup in wheelchair rugby 2014 in Odense. IT and event responsible at yearly athletics cup at Frederiksberg. Other responsibilities include maintaining, updating, troubleshooting and developing athlete database.}
+\cventry{2008--2009}{Pedagogical assistant}{Strandparkskolen}{Copenhagen}{}{Pedagogical assistant for children with severe autism.}
+
+%----------------------------------------------------------------------------------------
+%	VARIOUS EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Various experience}
+
+\cventry{2009--2015}{Coaching the physics football team}{Univertity of Copenhagen}{}{}{I have been coaching the official physics football team during the full duration of my studies. Here motivation and team dynamics is key.}
+
+\cventry{2009}{Sea kayak instructor}{Det Danske Spejder Korps}{}{}{}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Prizes}
+
+\cvitem{2013}{Niels Bohr Institute yearly teaching prize the Jens Martin Knudsen teaching prize for the performance done in laboratory courses in Classical Mechanics 1 \& 2. Teaching the students physics, laboratory routines, statistics and programming.}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{About me}
+
+\cvitem{}{I am 27 years old and I use a lot of my spare time with my family, girlfriend and friends. The rest of the time I spend on fishing, football, tabletennis, computers, gaming, Python-programming, Linux, Open-Source software, kayaking, sailing and much more.}
+
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+%\cvlistdoubleitem{Piano}{Chess}
+%\cvlistdoubleitem{Cooking}{Dancing}
+%\cvlistitem{Running}
+
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+\clearpage
+
+\recipient{SimpleSite}{} % Letter recipient
+\date{\today} % Letter date
+\opening{} % Opening greeting
+\closing{Best regards,} % Closing phrase
+%\enclosure[Attached]{CV and academic record} % List of enclosed documents
+
+\makelettertitle % Print letter title
+
+\textbf{Physicist seeking job as Growth Hacker}
+\\~\\
+I am very excited to be submitting you my application, because the position as growth hacker sounds just right for me, since I get a kick out of reducing complex data into understandable results. The possibility of using data analysis to improve your company and product is really something I find extremely interesting.
+\\~\\
+I have recently finished my master's degree in physics with the grade 12 and are now looking to broaden my horizon. Programming and statistics are the two disciplines I enjoy the most besides quantum optics. During my studies I took the course Applied statistics, where one have to utilize skills in programming (C++) and statistics and I was very good at it. As part of running an optics laboratory it is necessary to obtain good programming skills for analyzing collected data quickly and using different statistical tools for validating the results. Data is never clean and often contain noise or mistakes, I enjoy being the detective troubleshooting for errors. I am rather efficient in Python and Matlab, where I have taught new students the latter.
+\\~\\
+Throughout my studies, I have worked on multiple projects. Especially my bachelor's and master's project are worth mentioning, during these projects I had to be efficient during laboratory hours, communicate and work with the international staff in my group while competing with the big leading researching groups in USA, so teamwork and communicating in English is natural to me. I do also enjoy delving into projects on my own and I am good at prioritizing and structuring my time.
+\\~\\
+I have good IT and programming skills and it is something I enjoy during my spare time as well. I am comfortable in all the major operating systems Mac OSX, Linux and Windows, but my daily routine is done in Mac OSX and Linux. If I could, I would spent all my time in the *NIX command line, where I am very efficient.
+\\~\\
+My former co-workers would describe me as helpful, hardworking, thorough and a quick learner, so I will quickly become efficient in new presented systems.
+\\~\\
+I hope that you have found this application exciting and want to learn more at a clarifying interview. I am looking forward hearing from you.
+
+\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
